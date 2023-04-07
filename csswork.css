@@ -1,5 +1,6 @@
 .navbar{
     background-color:rgb(8, 8, 8)!important;
+   
 }
 .nav-link{
     
@@ -14,11 +15,11 @@ font-weight: 600 !important;
     transform: scale(1.1);
 }
 
-.body{
+/* .body{
     background-color: rgb(231, 230, 223) !important;
-}
-.btn{
-    margin-left: 50px;
+} */
+.btn1{
+    margin-left: 100px;
     background-color: hsl(34, 84%, 63%) !important;
     color: black !important;
     font-weight: bold !important;
@@ -26,18 +27,20 @@ font-weight: 600 !important;
 
 .con .text{
     position:relative;
-    font-size: 40px;
+    font-size:2.5rem;
     font-weight: 600px;
  margin-top: 123px;
+ 
 }
 #t1{
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
 
 }
 .sec-text{
     font-weight: bolder !important;
-    font-size: 50px ;
-    margin-left: 50px;
+    font-size: 2.5rem ;
+    margin-left:100px;
 }
 .text.sec-text:before{
     content:"" ;
@@ -46,7 +49,7 @@ font-weight: 600 !important;
     left:0;
     height: 100%;
     width: 100%;
-    background-color:rgb(231, 230, 223) !important;
+    background-color:white!important;
     
     border-left: 2px solid black;
     animation: animate 4s steps(12) infinite ;
@@ -59,32 +62,37 @@ font-weight: 600 !important;
         left:100%;
     }
 }
-img{
+
+.img{
     position: relative;
     transform: rotateY(180deg);
+    
     animation: ani 4s linear infinite;
+
 
 }
 @keyframes ani{
     50%{
         right: 100px;
         top:-20px
-        l
+        
     }
 }
 #scrollspyHeading2{
     padding: 2px;
-    width:fit-content;
+    width:10%;
+    height: 35px;
     background-color:hsl(34, 84%, 63%);
     font-size: medium;
     font-weight: bold;
     height: fit-content;
     margin-top: -66px;
-    margin-left: 675px;    
+    margin-left: 615px;  
+    text-align: center;  
 }
 .h3{
-    margin-left: 570px;
-    margin-top: 15px !important;
+    margin-left: 565px;
+    margin-top: 50px !important;
     font-size:40px !important;
     font-weight: 600 !important;
     color: rgba(0, 0, 0, 0.76) !important;
@@ -116,11 +124,74 @@ p{
 }
 #scrollspyHeading3{
     padding: 2px;
-    width:fit-content;
+    width:10%;
     background-color:hsl(34, 84%, 63%);
     font-size: medium;
     font-weight: bold;
     height: fit-content;
     margin-top: 50px;
-    margin-left: 675px;  
+    margin-left: 615px;  
+    height: 35px;
+    text-align: center;
+}
+.bar{
+    margin-top: 30px !important;
+    
+}
+.progress{
+    height: 12px !important;
+}
+.progress-bar{
+    background-color:hsl(34, 84%, 63%) !important;
+height: 12px !important;
+}
+h5{
+    font-style: italic !important;
+    font-weight: bolder !important;
+}
+#scrollspyHeading4{
+    padding: 2px;
+    width:10%;
+    height: 35px;
+    background-color:hsl(34, 84%, 63%);
+    font-size: medium;
+    font-weight: bold;
+    height: fit-content;
+    margin-top: -66px;
+    margin-left: 615px;  
+    text-align: center;
+}
+.card{
+    width:100% !important;
+}
+.img11{
+    width:100% !important;
+}
+.b{
+    margin-left: 180px !important;
+    width:150px !important;
+    
+    
+}
+
+.card{
+    border: none !important;
+}
+.card:hover{
+   transform: scale(1.01);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ul{
+    display:flex;
+    margin-left: 300px;
+    margin-top: 100px;
+    list-style: none;
+    line-height: 1.5rem;
+}
+.a{
+ text-decoration: none;
+ color: white;
+}
+li:hover{
+    transform: scale(1.1);
 }
