@@ -24,7 +24,10 @@ font-weight: 600 !important;
     color: black !important;
     font-weight: bold !important;
 }    
-
+.btn1:hover{
+    transform: scale(1.1);
+    background-color: teal !important;
+}
 .con .text{
     position:relative;
     
