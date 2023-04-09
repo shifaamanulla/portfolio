@@ -2,16 +2,20 @@
     background-color:rgb(8, 8, 8)!important;
    
 }
+.navbar-nav{
+    margin-left: 100px !important;
+}
 
 .nav-link{
     
 color:white !important;
 font-size: 18px !important;
-font-weight: 600 !important;
+font-weight:600 !important;
 
 }
 .nav-link:hover{
     transform: scale(1.1);
+    color:orange !important;
 }
 #t1:hover{
     transform: scale(1.1);
