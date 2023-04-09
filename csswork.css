@@ -88,7 +88,7 @@ font-weight: 600 !important;
     font-weight: bold;
     height: fit-content;
     margin-top: 100px;
-    /* margin-left: 615px;   */
+  
     text-align: center;  
 }
 .h3{
@@ -132,7 +132,7 @@ p{
     font-weight: bold;
     height: fit-content;
     margin-top: 200px;
-    /* margin-left: 615px;   */
+
     height: 35px;
     text-align: center;
 }
@@ -160,7 +160,7 @@ h5{
     font-weight: bold;
     height: fit-content;
     margin-top: 0px;
-    /* margin-left: 615px;   */
+    
     text-align: center;
 }
 .card{
